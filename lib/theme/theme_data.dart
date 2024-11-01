@@ -4,10 +4,12 @@ abstract class CustomThemeData {
   // Tema claro
   static ThemeData light() {
     return ThemeData(
+
       colorScheme: ColorScheme.fromSwatch().copyWith(
         primary: Color(0xFFFDBD4E),
         secondary: Color(0xFF757575),
-        background: Color(0xFFF5F5F5),// Branco suave com toque de cinza
+        //background: Color(0xFFF5F5F5),
+        background: Color(0xFFFDBD4E),// Branco suave com toque de cinza
         surface: Color(0xFF424242),
       ),
       appBarTheme: const AppBarTheme(

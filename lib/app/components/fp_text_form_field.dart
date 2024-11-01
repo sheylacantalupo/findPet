@@ -39,15 +39,6 @@ class FPTextFormField extends StatelessWidget {
 
     return Container(
       padding: padding,
-      decoration: BoxDecoration(
-        boxShadow: [
-          BoxShadow(
-            color: Colors.black.withOpacity(0.2), // Cor da sombra com opacidade
-            blurRadius: 10, // Defina o nível de desfoque da sombra
-            offset: Offset(0, 4), // Posicionamento da sombra
-          ),
-        ],
-      ),
       child: TextFormField(
         validator: validator,
         controller: controller,

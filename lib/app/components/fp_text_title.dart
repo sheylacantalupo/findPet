@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-enum FPSizeTitle {small(size:15.0), normal(size:25.0), largenormal(size:30.0);
+enum FPSizeTitle {small(size:17.0), normal(size:20.0), large(size:25.0);
   final double size;
 
   const FPSizeTitle({required this.size});
